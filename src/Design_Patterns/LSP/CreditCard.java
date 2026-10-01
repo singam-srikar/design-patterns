@@ -1,6 +1,6 @@
 package Design_Patterns.LSP;
 
-public class CreditCard implements Payment{
+public class CreditCard implements Payment, NonRefundPayment{
     @Override
     public void processPayment() {
         System.out.println("CC process");

@@ -1,6 +1,5 @@
 package Design_Patterns.LSP;
 
-public interface Payment {
-    void processPayment();
+public interface Payment extends NonRefundPayment{
     void processRefund();
 }

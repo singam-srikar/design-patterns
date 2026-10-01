@@ -1,6 +1,6 @@
 package Design_Patterns.LSP;
 
-public class UPI implements Payment{
+public class UPI implements Payment, NonRefundPayment{
     @Override
     public void processPayment() {
         System.out.println("UPI processing");

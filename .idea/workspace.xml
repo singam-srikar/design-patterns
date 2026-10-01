@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b097ad21-eb0b-4472-a125-b20588db4318" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design_Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/LSP/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/LSP/Crypto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/LSP/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/PaymentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/LSP/PaymentClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/UPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/LSP/UPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
