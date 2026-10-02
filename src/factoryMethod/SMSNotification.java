@@ -1,6 +1,6 @@
-package Design_Patterns.factory;
+package factoryMethod;
 
-public class SMSNototification implements Notification{
+public class SMSNotification implements Notification {
 
     @Override
     public void sendNotification() {

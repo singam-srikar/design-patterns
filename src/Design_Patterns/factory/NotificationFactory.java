@@ -9,7 +9,7 @@ public class NotificationFactory {
         if(type.equals("Email")){
             return new EmailNotification();
         } else if (type.equals("SMS")) {
-            return new SMSNototification();
+            return new SMSNotification();
         }
         throw  new UnsupportedOperationException("Notification type not valid");
     }
@@ -20,7 +20,7 @@ public class NotificationFactory {
             if(type.equals("Email")){
                 arrayList.add(new EmailNotification());
             } else if (type.equals("SMS")) {
-               arrayList.add(new SMSNototification());
+               arrayList.add(new SMSNotification());
             }
         }
         return arrayList;

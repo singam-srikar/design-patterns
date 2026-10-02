@@ -1,6 +1,7 @@
-import Design_Patterns.factory.DeliveryService;
-import Design_Patterns.factory.OrderService;
 import Solid_Principles.LSP.PaymentClient;
+import factoryMethod.DeliveryService;
+import factoryMethod.Notification;
+import factoryMethod.OrderService;
 
 import java.util.List;
 
@@ -13,11 +14,19 @@ public class Main {
 //        paymentClient.process();
 
         //factory call
+//        OrderService orderService = new OrderService();
+//        orderService.process("Email");
+//        orderService.processMultipleNotifications(List.of("Email","SMS"));
+
+//        DeliveryService deliveryService = new DeliveryService();
+//        deliveryService.process("SMS");
+
+
+        //factory method call
         OrderService orderService = new OrderService();
-        orderService.process("Email");
-        orderService.processMultipleNotifications(List.of("Email","SMS"));
+        orderService.process();
 
         DeliveryService deliveryService = new DeliveryService();
-//        deliveryService.process("SMS");
+        deliveryService.process();
     }
 }
