@@ -35,15 +35,21 @@ public class Main {
 //        smsService.sendSms();
 
         //singleton
-        Calculator calculator = Calculator.getInstance();
-        Calculator calculator1 = Calculator.getInstance();
-        calculator.a=2;
-        calculator.b=3;
+//        Calculator calculator = Calculator.getInstance();
+//        Calculator calculator1 = Calculator.getInstance();
 
-        calculator1.a=4;
-        calculator1.b=5;
 
-        System.out.println(calculator.sum());
-        System.out.println(calculator1.sum());
+//        calculator1.a=4;
+//        calculator1.b=5;
+//
+//        System.out.println(calculator.sum());
+//        System.out.println(calculator1.sum());
+
+        Thread t1  = new Thread(Calculator::getInstance);
+        Thread t2  = new Thread(()->{
+            Calculator.getInstance();
+        });
+        t1.start();
+        t2.start();
     }
 }
