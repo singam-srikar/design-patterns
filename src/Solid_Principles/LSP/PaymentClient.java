@@ -1,4 +1,4 @@
-package Design_Patterns.LSP;
+package Solid_Principles.LSP;
 
 import java.util.List;
 //A subclass should implement all methods logically so that we can use subclass in place

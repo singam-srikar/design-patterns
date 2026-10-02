@@ -1,4 +1,4 @@
-package Design_Patterns.LSP;
+package Solid_Principles.LSP;
 
 public class UPI implements Payment, NonRefundPayment{
     @Override

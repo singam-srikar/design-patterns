@@ -1,4 +1,4 @@
-package Design_Patterns.LSP;
+package Solid_Principles.LSP;
 
 public class Crypto implements NonRefundPayment{
     @Override
