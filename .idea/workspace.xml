@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b097ad21-eb0b-4472-a125-b20588db4318" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/Crypto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/NonRefundPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/NonRefundPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/PaymentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/PaymentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/LSP/UPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solid_Principles/LSP/UPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/factory/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factory/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/factory/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factory/DeliveryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/factory/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factory/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

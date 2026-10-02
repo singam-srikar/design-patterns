@@ -1,12 +1,16 @@
 package Design_Patterns.factory;
 
+import java.util.List;
+
 public class OrderService {
     public void process(String notificationType){
-        if(notificationType.equals("Email")){
-            new EmailNotification().sendNotification();
-        }
-        if(notificationType.equals("SMS")){
-            new SMSNototification().sendNotification();
+       Notification notification = NotificationFactory.processNotification(notificationType);
+       notification.sendNotification();
+    }
+    public void processMultipleNotifications(List<String> types){
+        List<Notification> notifications = NotificationFactory.processNotifications(types);
+        for(Notification notification:notifications){
+            notification.sendNotification();
         }
     }
 }
