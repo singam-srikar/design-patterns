@@ -1,3 +1,5 @@
+import Design_Patterns.builder.EmailService;
+import Design_Patterns.builder.SmsService;
 import Design_Patterns.factoryMethod.DeliveryService;
 import Design_Patterns.factoryMethod.OrderService;
 
@@ -19,10 +21,16 @@ public class Main {
 
 
         //factory method call
-        OrderService orderService = new OrderService();
-        orderService.process();
+//        OrderService orderService = new OrderService();
+//        orderService.process();
+//
+//        DeliveryService deliveryService = new DeliveryService();
+//        deliveryService.process();
 
-        DeliveryService deliveryService = new DeliveryService();
-        deliveryService.process();
+        //builder
+        EmailService emailService = new EmailService();
+        emailService.sendEmail();
+        SmsService smsService = new SmsService();
+        smsService.sendSms();
     }
 }

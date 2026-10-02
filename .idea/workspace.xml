@@ -7,14 +7,6 @@
     <list default="true" id="b097ad21-eb0b-4472-a125-b20588db4318" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/DeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/DeliveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/EmailNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/EmailNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/SMSNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/SMSNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/factories/EmailFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/factories/EmailFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/factories/NotificationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/factories/NotificationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factoryMethod/factories/SmsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/factoryMethod/factories/SmsFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
