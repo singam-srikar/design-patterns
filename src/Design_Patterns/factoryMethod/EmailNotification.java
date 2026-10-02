@@ -1,6 +1,4 @@
-package factoryMethod;
-
-import factoryMethod.factories.EmailFactory;
+package Design_Patterns.factoryMethod;
 
 public class EmailNotification implements Notification {
 

@@ -1,9 +1,5 @@
-import Solid_Principles.LSP.PaymentClient;
-import factoryMethod.DeliveryService;
-import factoryMethod.Notification;
-import factoryMethod.OrderService;
-
-import java.util.List;
+import Design_Patterns.factoryMethod.DeliveryService;
+import Design_Patterns.factoryMethod.OrderService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

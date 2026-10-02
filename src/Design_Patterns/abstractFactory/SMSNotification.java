@@ -1,4 +1,4 @@
-package factoryMethod;
+package Design_Patterns.abstractFactory;
 
 public class SMSNotification implements Notification {
 

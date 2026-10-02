@@ -1,8 +1,7 @@
-package factoryMethod.factories;
+package Design_Patterns.factoryMethod.factories;
 
-import factoryMethod.EmailNotification;
-import factoryMethod.Notification;
-import factoryMethod.SMSNotification;
+import Design_Patterns.factoryMethod.EmailNotification;
+import Design_Patterns.factoryMethod.Notification;
 
 public class EmailFactory implements NotificationFactory{
     @Override

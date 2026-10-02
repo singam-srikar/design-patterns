@@ -1,8 +1,7 @@
-package factoryMethod;
+package Design_Patterns.abstractFactory;
 
-import factoryMethod.factories.EmailFactory;
-import factoryMethod.factories.NotificationFactory;
-import factoryMethod.factories.SmsFactory;
+import Design_Patterns.abstractFactory.factories.EmailFactory;
+import Design_Patterns.abstractFactory.factories.NotificationFactory;
 
 public class DeliveryService {
     public void process(){
