@@ -2,6 +2,7 @@ import Design_Patterns.builder.EmailService;
 import Design_Patterns.builder.SmsService;
 import Design_Patterns.factoryMethod.DeliveryService;
 import Design_Patterns.factoryMethod.OrderService;
+import Design_Patterns.prototype.UserService;
 import Design_Patterns.singleton.Calculator;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -44,12 +45,18 @@ public class Main {
 //
 //        System.out.println(calculator.sum());
 //        System.out.println(calculator1.sum());
+//
+//        singleton-thread safety
+//        Thread t1  = new Thread(Calculator::getInstance);
+//        Thread t2  = new Thread(()->{
+//            Calculator.getInstance();
+//        });
+//        t1.start();
+//        t2.start();
 
-        Thread t1  = new Thread(Calculator::getInstance);
-        Thread t2  = new Thread(()->{
-            Calculator.getInstance();
-        });
-        t1.start();
-        t2.start();
+        //prototype
+        UserService userService = new
+                UserService();
+        userService.show();
     }
 }
