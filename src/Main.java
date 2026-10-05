@@ -1,3 +1,4 @@
+import Design_Patterns.adaptor.*;
 import Design_Patterns.builder.EmailService;
 import Design_Patterns.builder.SmsService;
 import Design_Patterns.factoryMethod.DeliveryService;
@@ -55,8 +56,12 @@ public class Main {
 //        t2.start();
 
         //prototype
-        UserService userService = new
-                UserService();
-        userService.show();
+//        UserService userService = new UserService();
+//        userService.show();
+
+        //adaptor
+        PaymentClient paymentClient = new PaymentClient(new PaypalAdaptor(new PaypalGateway()));
+//      PaymentClient paymentClient = new PaymentClient(new RazorpayAdaptor(new RazorpayGateway()));
+        paymentClient.payNow();
     }
 }
