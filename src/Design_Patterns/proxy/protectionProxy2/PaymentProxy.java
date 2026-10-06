@@ -1,4 +1,4 @@
-package Design_Patterns.proxy;
+package Design_Patterns.proxy.protectionProxy2;
 
 public class PaymentProxy implements PaymenService{
     private PaymenService paymenService;

@@ -1,16 +1,7 @@
-import Design_Patterns.adaptor.*;
-import Design_Patterns.builder.EmailService;
-import Design_Patterns.builder.SmsService;
-import Design_Patterns.factoryMethod.DeliveryService;
-import Design_Patterns.factoryMethod.OrderService;
-import Design_Patterns.prototype.UserService;
-import Design_Patterns.proxy.PaymenService;
-import Design_Patterns.proxy.PaymentProxy;
-import Design_Patterns.proxy.PaymentServiceImpl;
 import Design_Patterns.proxy.protectionProxy.Database;
 import Design_Patterns.proxy.protectionProxy.DatabaseProxy;
-import Design_Patterns.proxy.protectionProxy.MySqlDb;
-import Design_Patterns.singleton.Calculator;
+import Design_Patterns.proxy.virtualProxy.Movie;
+import Design_Patterns.proxy.virtualProxy.Video;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -76,7 +67,17 @@ public class Main {
 //        PaymentProxy paymentProxy = new PaymentProxy(payment);
 //        paymentProxy.pay(1000);
         //protected proxy
-        Database db=new DatabaseProxy("ADMIN");
-        db.delete();
+//        Database db=new DatabaseProxy("ADMIN");
+//        db.delete();
+
+        //virtual proxy
+        Video video =  new Movie("Paradise");
+        Video video1 = new Movie("Salar");
+        Video video2 = new Movie("KGF");
+        Video video3 = new Movie("Premalu");
+        video.play();
+        video1.play();
+        video2.play();
+        video3.play();
     }
 }
