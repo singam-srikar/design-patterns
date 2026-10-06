@@ -1,6 +1,7 @@
 import Design_Patterns.proxy.protectionProxy.Database;
 import Design_Patterns.proxy.protectionProxy.DatabaseProxy;
 import Design_Patterns.proxy.virtualProxy.Movie;
+import Design_Patterns.proxy.virtualProxy.MovieProxy;
 import Design_Patterns.proxy.virtualProxy.Video;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -71,10 +72,15 @@ public class Main {
 //        db.delete();
 
         //virtual proxy
-        Video video =  new Movie("Paradise");
-        Video video1 = new Movie("Salar");
-        Video video2 = new Movie("KGF");
-        Video video3 = new Movie("Premalu");
+        Video video =  new MovieProxy("Paradise");
+        Video video1 = new MovieProxy("Salar");
+        Video video2 = new MovieProxy("KGF");
+        Video video3 = new MovieProxy("Premalu");
+        video.play();
+        video1.play();
+        video2.play();
+        video3.play();
+
         video.play();
         video1.play();
         video2.play();

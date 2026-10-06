@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b097ad21-eb0b-4472-a125-b20588db4318" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/proxy/PaymenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/proxy/protectionProxy2/PaymenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/proxy/PaymentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/proxy/protectionProxy2/PaymentProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/proxy/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/proxy/protectionProxy2/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Design_Patterns/proxy/virtualProxy/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/proxy/virtualProxy/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Design_Patterns/proxy/virtualProxy/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/proxy/virtualProxy/Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
