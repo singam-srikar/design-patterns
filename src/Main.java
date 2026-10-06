@@ -7,6 +7,9 @@ import Design_Patterns.prototype.UserService;
 import Design_Patterns.proxy.PaymenService;
 import Design_Patterns.proxy.PaymentProxy;
 import Design_Patterns.proxy.PaymentServiceImpl;
+import Design_Patterns.proxy.protectionProxy.Database;
+import Design_Patterns.proxy.protectionProxy.DatabaseProxy;
+import Design_Patterns.proxy.protectionProxy.MySqlDb;
 import Design_Patterns.singleton.Calculator;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -69,8 +72,11 @@ public class Main {
 
         //proxy
 
-        PaymenService payment = new PaymentServiceImpl();
-        PaymentProxy paymentProxy = new PaymentProxy(payment);
-        paymentProxy.pay(1000);
+//        PaymenService payment = new PaymentServiceImpl();
+//        PaymentProxy paymentProxy = new PaymentProxy(payment);
+//        paymentProxy.pay(1000);
+        //protected proxy
+        Database db=new DatabaseProxy("ADMIN");
+        db.delete();
     }
 }
