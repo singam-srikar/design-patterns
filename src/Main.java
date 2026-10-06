@@ -4,12 +4,14 @@ import Design_Patterns.builder.SmsService;
 import Design_Patterns.factoryMethod.DeliveryService;
 import Design_Patterns.factoryMethod.OrderService;
 import Design_Patterns.prototype.UserService;
+import Design_Patterns.proxy.PaymenService;
+import Design_Patterns.proxy.PaymentServiceImpl;
 import Design_Patterns.singleton.Calculator;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //lsp
 //        PaymentClient paymentClient = new PaymentClient();
 //        paymentClient.process();
@@ -60,8 +62,12 @@ public class Main {
 //        userService.show();
 
         //adaptor
-        PaymentClient paymentClient = new PaymentClient(new PaypalAdaptor(new PaypalGateway()));
+//        PaymentClient paymentClient = new PaymentClient(new PaypalAdaptor(new PaypalGateway()));
 //      PaymentClient paymentClient = new PaymentClient(new RazorpayAdaptor(new RazorpayGateway()));
-        paymentClient.payNow();
+//        paymentClient.payNow();
+
+        //proxy
+        PaymenService paymenService = new PaymentServiceImpl();
+        paymenService.pay();
     }
 }
