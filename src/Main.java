@@ -5,6 +5,7 @@ import Design_Patterns.factoryMethod.DeliveryService;
 import Design_Patterns.factoryMethod.OrderService;
 import Design_Patterns.prototype.UserService;
 import Design_Patterns.proxy.PaymenService;
+import Design_Patterns.proxy.PaymentProxy;
 import Design_Patterns.proxy.PaymentServiceImpl;
 import Design_Patterns.singleton.Calculator;
 
@@ -67,7 +68,9 @@ public class Main {
 //        paymentClient.payNow();
 
         //proxy
-        PaymenService paymenService = new PaymentServiceImpl();
-        paymenService.pay();
+
+        PaymenService payment = new PaymentServiceImpl();
+        PaymentProxy paymentProxy = new PaymentProxy(payment);
+        paymentProxy.pay(1000);
     }
 }
